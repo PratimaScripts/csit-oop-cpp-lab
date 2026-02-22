@@ -1,0 +1,61 @@
+# =========================
+# Compiled Object Files
+# =========================
+*.o
+*.obj
+*.so
+*.dll
+*.exe
+*.out
+*.a
+
+# =========================
+# Build Directories
+# =========================
+build/
+bin/
+Debug/
+Release/
+
+# =========================
+# CMake Files (if used later)
+# =========================
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# =========================
+# Visual Studio Files
+# =========================
+.vs/
+*.vcxproj*
+*.sln
+
+# =========================
+# Code::Blocks Files
+# =========================
+*.cbp
+*.layout
+*.depend
+
+# =========================
+# Dev-C++ Files
+# =========================
+*.dev
+
+# =========================
+# CLion Files
+# =========================
+.idea/
+
+# =========================
+# VS Code Files
+# =========================
+.vscode/
+
+# =========================
+# OS Generated Files
+# =========================
+.DS_Store
+Thumbs.db
