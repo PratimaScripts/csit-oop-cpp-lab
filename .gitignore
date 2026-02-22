@@ -1,5 +1,5 @@
 # =========================
-# Compiled Object Files
+# Compiled Object & Binary Files
 # =========================
 *.o
 *.obj
@@ -18,7 +18,7 @@ Debug/
 Release/
 
 # =========================
-# CMake Files (if used later)
+# CMake Files
 # =========================
 CMakeFiles/
 CMakeCache.txt
@@ -26,36 +26,44 @@ cmake_install.cmake
 Makefile
 
 # =========================
-# Visual Studio Files
+# macOS System Files
 # =========================
+.DS_Store
+.AppleDouble
+.LSOverride
+.Trashes
+.Spotlight-V100
+.DocumentRevisions-V100
+.fseventsd
+
+# =========================
+# Windows System Files
+# =========================
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# =========================
+# Editor / IDE
+# =========================
+.vscode/
+.idea/
 .vs/
 *.vcxproj*
 *.sln
-
-# =========================
-# Code::Blocks Files
-# =========================
 *.cbp
 *.layout
 *.depend
-
-# =========================
-# Dev-C++ Files
-# =========================
 *.dev
+*.xcworkspace
+*.xcuserstate
+*.xcuserdatad
 
 # =========================
-# CLion Files
+# Temporary & Backup Files
 # =========================
-.idea/
-
-# =========================
-# VS Code Files
-# =========================
-.vscode/
-
-# =========================
-# OS Generated Files
-# =========================
-.DS_Store
-Thumbs.db
+*~
+*.swp
+*.tmp
+*.bak
+*.log
